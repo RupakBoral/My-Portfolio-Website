@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Open+Sans&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;  
+}
+.sidebar{
+    background-color: rgb(87, 91, 155);
+    color: rgb(215, 193, 152);
+    width: 30vw;
+    font-family: 'EB Garamond', serif;
+    height: auto;
+}
+.sidebar nav{
+    padding: 40px;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(215, 193, 152);
+}
+.main{
+    background-color: rgb(170, 161, 205);
+    color:burlywood;
+    width:120vw ;
+    max-height: max-content;
+    font-family: 'EB Garamond', serif;
+}
+.container{
+    display: flex;
+    background: rgb(170, 161, 205);
+}
+.infoContainer{
+    background-color:  antiquewhite;
+    height: 81vh;
+    width: 80vw auto;
+    margin: 144px auto;
+    margin-top: 77px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.devPic img{
+    height: 50vh;
+    padding-right: 2vw;
+    padding-top: 6vw;
+    margin-bottom: 5vh;
+}
+.devPic1 img{
+    height: 40vh;
+    width: 20vw;
+    padding-top: 3.5vw;
+    padding-left: 650px;
+    padding-right: 20px;
+    display: inline-block;
+    position: relative;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -200px;
+}
+.hello{
+    font-size: 60px;
+    font-family: 'EB Garamond', serif;
+}
+.name{
+    font-size: 55px;
+    font-family: 'Young Serif', serif;
+    padding-left: 2vw;
+}
+.purpule{
+    color: rgb(100, 100, 148);
+}
+#element{
+    font-size: 25px;
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    font-weight: 1000;
+    color: rgb(71, 89, 121);
+}
+.moreabout{
+    font-size: 15px;
+    font-family: 'Young Serif', serif;
+    padding-left: 10vw;
+    /* margin-top: 0px; */
+    line-height: 50px;
+    display: inline-flex;
+}
+.more{
+    margin-top: 100px;
+    font-size: 15px;
+    font-family: 'Young Serif', serif;
+    padding-left: 9vw;
+    color: #574690;
+    /* display: inline-block; */
+    padding-right: 6vw;
+}
+.more a{
+    vertical-align:middle;
+    color: #574690;
+    text-decoration: none;
+    line-height: 25px;
+}
+.footer1{
+    position: absolute;
+    font-family: 'Young Serif';
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(92, 70, 131);
+    line-height: 25px;
+    top: 0;
+    margin-top: 250px;
+}
+.footer1 h3{
+    font-size: large;
+    color: rgb(75, 53, 113);
+    /* margin-top: 20px; */
+}
+.skills{
+    margin-top: auto;
+    display: inline-block;
+    top: 0;
+    /* margin-top: -1000px; */
+}
+.footer2{
+    /* margin-top: 0px; */
+    flex: 1;
+    font-family: 'Young Serif';
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(75, 53, 113);
+    display: inline-block;
+    padding-left: 120px;
+    margin-right: auto;
+}
+.footer2 h4{
+    color: rgb(92, 70, 131);
+}
+.footer2 h3{
+    color: rgb(75, 53, 113);
+}
+.footer3{
+    font-size: medium;
+    margin-top: 50px;
+    margin-right: auto;
+}
+.buttons{
+    margin-top: 28px;
+    align-items: center;
+}
+.buttons button{
+    padding: 8px 14px;
+    border-radius: 22px;
+    background-color: rgb(128, 141, 205);
+    border-color:  rgb(128, 141, 205);
+    color: rgb(234, 234, 212);
+    font-weight: bold;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    color: rgb(128, 141, 205);
+    background-color: rgb(234, 234, 212);
+}
+.buttons button a{
+    text-decoration: none;
+    color: rgb(234, 234, 212);
+}
+.buttons button a:hover{
+    color: rgb(128, 141, 205);
+    background-color: rgb(234, 234, 212);
+}
+.contactform{
+    font-family: 'EB Garamond', serif;
+    padding: 0 40px;
+    padding-top: 50px;
+}
+.contactform h1{
+    font-family: 'EB Garamond', serif;
+    font: weight 10px;
+    color: rgb(67, 67, 135);
+    text-align: center;
+}
+.contactform h1{
+    padding-left: 55px;
+}
+.contactform div{
+    margin-top: 10px;
+    padding: 8px 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 19px;
+    font-weight:600;
+    color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+}
+.form-group1 label{
+    width: 15vw;
+    height: 20px;
+    margin-top: 8px;
+    padding: 3px;
+}
+.form-group1 input{
+    width: 15vw;
+    height: 18px;
+    margin-top: 8px;
+    padding: 3px;
+}
+#email{
+    width: 20vw;
+    height: fit-content;
+    padding: 3px;
+    margin-top: 8px;
+}
+#emailHelp{
+    font-size: small;
+    color: black;
+    font-weight: 500;
+    margin-top: 0px;
+}
+#phone1{
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    margin-top: 8px;
+}
+.form-group4{
+    width: fit-content;
+    height: fit-content;
+    padding: 3px;
+    margin-top: 8px;
+}
+.form-group4 input{
+    width: 35vw;
+    height: 20vh;
+}
+.subm button{
+    background: indigo;
+    width: 70px;
+    height: 30px;
+    border-radius: 40px;
+    border-color: #210037;
+    margin-top: 15px;
+    color: #e4caab;
+    cursor: pointer;
+}
+.subm button:hover{
+    color: indigo;
+    width: 70px;
+    height: 30px;
+    border-radius: 40px;
+    border-color: #210037;
+    margin-top: 15px;
+    background: #e4caab;
+    cursor: pointer;
+}
+.projectContainer h1{
+    color: rgb(56, 15, 107);
+    padding-left: 380px;
+    padding-top: 45px;
+}
+.projectitem{
+    color: #574690;
+    font-family: 'EB Garamond', serif;
+    padding-left: 30px;
+    font-size: large;
+    font-weight: 550;
+}
+.projectitem h4{
+    color: #354992;
+    font-size: 20px;
+    display: inline;
+    font-weight: 1000;
+    font-size: larger;
+    line-height: 2;
+}
+@media only screen and (max-width: 800px) {
+  .sidebar{
+    position: absolute;
+    transform: translate(-181px, 0px);
+    background-color: rgb(170, 161, 205);
+  }
+  .container{
+    position: absolute;
+    transform: translate(45px, -5px);
+    background-color: rgb(170, 161, 205);
+  }
+}
+.en{
+    background: rgb(170, 161, 205);
+}
+.hamburger{
+    left: 10px;
+    top: 8px;
+    cursor: pointer;
+    position: absolute;
+}
